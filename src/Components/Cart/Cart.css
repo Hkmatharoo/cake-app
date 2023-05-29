@@ -1,0 +1,8 @@
+.carthead{
+ font-size: 188%;
+ text-align: center;
+ position: relative;
+}
+.cartItems{
+    display: inline;
+}

@@ -4,8 +4,8 @@ export default function Contactus() {
     return (
         <>
             <section className='main-Container-Contact'>
-                <img className='galleryimg' src='/images/pink4.jpg' alt="gallery" height={400} width={400} />
-                <h1 className='contactusheading gallery-logo'>CONTACT US</h1>
+                <img className='contactusimg' src='/images/pink4.jpg' alt="gallery" height={400} width={400} />
+                <h1 className='contactusheading contactus-logo'>CONTACT US</h1>
                 <span className='item-container-contact'>
                     <div className='left-Container'>
                         <h3 className='font'>Quick Contact</h3>

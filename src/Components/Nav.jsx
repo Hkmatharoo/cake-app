@@ -12,7 +12,7 @@ export default function Nav(){
                             <Link to={'/'} className='linkstyle'><li><a href="#">HOME</a></li></Link>
                             <Link to={'/menu'} className='linkstyle'><li><a href="#menu">OUR MENU</a></li></Link>
                             <div className="btn-group" role="group">
-                                <li data-bs-toggle="dropdown">
+                                <li data-bs-toggle="dropdown" onClick={()=>nav('/gallery')} >
                                     <a href="#gallery">GALLERY <span><i className="fa-solid fa-caret-down"></i></span></a>
                                     <ul className="dropdown-menu">
                                         <li className="dropdown-items" onClick={()=>nav('/drycakes')}>Dry Cakes</li>
@@ -35,13 +35,12 @@ export default function Nav(){
                                         <li className="dropdown-items" onClick={()=>nav('/booking')}>Booking</li>
                                         <li className="dropdown-items" onClick={()=>nav('/checkout')}>Checkout</li>
                                         <li className="dropdown-items" onClick={()=>nav('/reviews')}>Reviews</li>
-                                        {/* <li className="dropdown-items" onClick={()=>nav('/login')}>login</li> */}
-                                        {/* <li className="dropdown-items" onClick={()=>nav('/register')}>Register</li> */}
                                     </ul>
                                 </li>
                             </div>
                             <li><a href="#contact us" onClick={()=>nav('/contact')}>CONTACT US</a></li>
                             <li><a href="login" onClick={()=>nav('/login')}>LOG IN</a></li>
+                            {/* <li><a><i class="fa-solid fa-cart-shopping"></i></a></li> */}
                         </ul>
                     </nav>
 

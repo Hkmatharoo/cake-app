@@ -3,7 +3,7 @@ import "./style.css"
 import Menu from './Menu'
 import Contactus from './Contactus'
 import Carousel from './GalleryContent/Carousel'
-import CarouselCollection from './GalleryContent/CarouselCollection'
+import CarouselCollection from './GalleryContent/DemoAllGalleryContext'
 import WhyChoose from './WhyChoose'
 import Footer from './Footer'
 import Reviews from './Shop/Reviews'

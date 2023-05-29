@@ -21,7 +21,7 @@ export const dryCakes = [
     },
     {
         name:'DRY FRUIT CAKE',
-        halfP:'Rs 450/-',
+        halfP:'Rs 480/-',
         oneP:'Rs 600/-'
     },
     {

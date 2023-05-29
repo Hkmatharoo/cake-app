@@ -1,43 +1,62 @@
 import React, { createContext, useState } from 'react'
-import { galleryDryCake } from '../GalleryContent/GalleryData';
+import { cakesGallery } from '../GalleryContent/GalleryData';
 export const cartContext = createContext();
 
 const CartContext = (props) => {
-    const getDefaultCartItemDryCake = ()=>{
+    const getDefaultCartItem = ()=>{
         let cart={}
-        for(let i=1; i<=galleryDryCake.length;i++){
+        for(let i=1; i<=cakesGallery.length;i++){
             cart[i]=0
         }
         return cart;
     }
-    const [dryCakeCartItems, setdryCakeCartItems] = useState(getDefaultCartItemDryCake)
-    console.log(dryCakeCartItems);
+    const [cartItems, setCartItems] = useState(getDefaultCartItem)
+    // console.log(cartItems);
+    
+    // const[price,setPrice] =useState({
+    //     fP:'**', 
+    //     qty:'**'
+        
+    // })
 
-    const addDryCakeToCart=(itemId)=>{
-        setdryCakeCartItems((prev)=>({...prev,[itemId]:prev[itemId]+1}))
+    const[finalP, setFinal]=useState()
+
+
+    const addToCart=(itemId)=>{
+        setCartItems((prev)=>({...prev,[itemId]:prev[itemId]+1}))
     }
 
-    const removeDryCakeToCart=(itemId)=>{
-        setdryCakeCartItems((prev)=>({...prev,[itemId]:prev[itemId]-1}))
+    const removeFromCart=(itemId)=>{
+        setCartItems((prev)=>({...prev,[itemId]:prev[itemId]-1}))
     }
     const updateCartItemCount=(newAmount, itemId)=>{
-        setdryCakeCartItems((prev)=>({...prev, [itemId]:newAmount}))
+        setCartItems((prev)=>({...prev, [itemId]:newAmount}))
     }
 
     const getTotalCartAmount=()=>{
         let totalAmount = 0;
-        for(const item in dryCakeCartItems){
-            let itemInfo = galleryDryCake.find((product)=>product.id===Number(item))
-            totalAmount += dryCakeCartItems[item]* itemInfo.price
+        for(const item in cartItems){
+            totalAmount += cartItems[item]* finalP
         }
+        return totalAmount;
     }
 
+
+    const handlePrice=(itemId,halfPrice)=>{
+        if(halfPrice){
+           setFinal(cakesGallery[itemId].price.halfKg)
+        }
+        else if(!halfPrice){
+            setFinal(cakesGallery[itemId].price.oneKg)
+        }
+    }
     const contextValue={
-        dryCakeCartItems, 
-        addDryCakeToCart, 
-        removeDryCakeToCart,
+        cartItems, 
+        addToCart, 
+        removeFromCart,
         updateCartItemCount,
-        getTotalCartAmount
+        getTotalCartAmount,
+        handlePrice,
     }
 
   return (
