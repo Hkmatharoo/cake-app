@@ -67,9 +67,6 @@ function Menu() {
                     {showCakes?<Cakes />:null}
                     {showCupcakes?<Cupcake />:null}
                     {showCheesecakes?<Cheesecake />:null}
-                    
-                    {/* <DryCake /> */}
-                    {/* <Cakes /> */}
                 </span>
             </section>
 

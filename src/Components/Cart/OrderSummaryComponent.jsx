@@ -1,33 +1,48 @@
-import React, { useContext } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import { cakesGallery } from '../GalleryContent/GalleryData'
 import { cartContext } from '../context/CartContext'
 import OrderSummaryCart from './OrderSummaryCart'
-// import Cart
-
+import './Cart.css'
 
 const OrderSummaryComponent = () => {
+
+    const { cartItems, getTotalCartAmount } = useContext(cartContext)
+    const[getCakes, setGetCakes] = useState(false)
+    const[cartCakes, setCartCakes] = useState([]);
     
-    const {cartItems, getTotalCartAmount} = useContext(cartContext)
+    useEffect(()=>{
+        let cakesArr = JSON.parse(localStorage.getItem('Cart Arr'))
+        setCartCakes(()=>(cakesArr))
+        console.log(cakesArr);
+        setGetCakes(true)
+    },[cartItems])
+
     return (
         <>
-            <div className='cart'>
-                <h1>Your Order Summary</h1>
-            </div>
-            <div className='cartItems'>
-                {cakesGallery.map((product)=>{
-                    if(cartItems[product.id] !==0){
-                        return < OrderSummaryCart data={product} />
-                    }
-                })}
+            <section className='cart'>
                 <div>
-                    <p><b>Sub Total = {getTotalCartAmount()}</b></p>
-                    {console.log(getTotalCartAmount())}
+                    <h1>Your Order Summary</h1>
                 </div>
-            </div>
+                <div className='cartItems'>
+                    {cakesGallery.map((product) => {
+
+                        if (cartItems[product.id] !== 0) {
+                            return <>< OrderSummaryCart data={product} /><hr/></>
+                        }
+                    })}
+                    {/* {cartCakes.map((product) => {
+                        return < OrderSummaryCart data={product} />
+                    })} */}
+
+                    <div>
+                        <p><b>Sub Total = {getTotalCartAmount()}</b></p>
+                        {console.log(getTotalCartAmount())}
+                    </div>
+                </div>
+            </section>
         </>
     )
 }
-
 export default OrderSummaryComponent
 
 

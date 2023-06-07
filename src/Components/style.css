@@ -31,7 +31,7 @@ li a {
     display: block;
     text-decoration: none;
     text-align: center;
-    padding: 17px 55px;
+    padding: 17px 47px;
     color: white;
     font-size: 20px;
     font-family: 'Shantell Sans', cursive;
@@ -425,13 +425,13 @@ th {
     background: rgba(0, 0, 0, 0.5);
     /* Black see-through */
     color: #f1f1f1;
-    width: 94%;
+    width: 95%;
     transition: .5s ease;
     opacity: 0;
     color: white;
     font-size: 20px;
-    padding: 0px;
-    margin-bottom: 32px;
+    padding: 8px;
+    margin-bottom: 8px;
     text-align: center;
 }
 
@@ -612,6 +612,7 @@ html {
 .CheckoutMain{
     display: flex;
     flex-direction: column;
+    width: 60%;
 }
 .CheckoutHeader {
     display: flex;
@@ -780,6 +781,7 @@ html {
 .iUupQc {
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 .btFOlx {
     display: flex;
@@ -1049,4 +1051,22 @@ html {
     background: white;
     -webkit-box-pack: end;
     justify-content: flex-end;
+}
+.MainDeliveryContainer{
+    /* width: 60%; */
+    margin-left: 80px;
+    width: fit-content;
+}
+.shop{
+    width: 50%;
+}
+.MainDeliveryForm{
+    width: 100%;
+}
+.spanContainer{
+    width: 50%;
+}
+.buttons{
+    border-radius: 7px;
+    padding: 7px;
 }

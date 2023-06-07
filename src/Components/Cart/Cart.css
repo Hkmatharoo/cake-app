@@ -6,3 +6,11 @@
 .cartItems{
     display: inline;
 }
+.cart{
+    float: right;
+    margin-top: -71%;
+    width: 40%;
+}
+.rightboxcart{
+    display: inline;
+}

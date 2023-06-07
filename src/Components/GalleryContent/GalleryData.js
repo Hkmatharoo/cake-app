@@ -72,7 +72,7 @@ export const cakesGallery = [
     {
         id: 8,
         src: '/images/drycake8.jpg',
-        divData: 'PINEAPPLE UPSIDE DOWN',
+        divData: 'PINEAPPLE CAKE',
         price: {
             halfKg: 450,
             oneKg: 550
@@ -92,7 +92,7 @@ export const cakesGallery = [
     {
         id: 10,
         src: '/images/drycake10.jpg',
-        divData: 'WHOLE WHEAT JAGGREY CAKE',
+        divData: 'JAGGREY CAKE',
         price: {
             halfKg: 480,
             oneKg: 580
@@ -104,17 +104,17 @@ export const cakesGallery = [
         src: '/images/cake1.jpg',
         divData: 'PINKY POO ',
         price: {
-            halfKg: 680,
-            oneKg: 1400
+            halfKg: 750,
+            oneKg: 1500
         },
         category: 'Cake'
     },
     {
         id: 12,
         src: '/images/cake2.jpg',
-        divData: 'BUTTERFLY CUTENESS',
+        divData: 'BUTTERFLIES',
         price: {
-            halfKg: 650,
+            halfKg: 600,
             oneKg: 1200
         },
         category: 'Cake'
@@ -124,8 +124,8 @@ export const cakesGallery = [
         src: '/images/cake3.jpg',
         divData: 'THE BEST DAD',
         price: {
-            halfKg: 650,
-            oneKg: 1300
+            halfKg: 600,
+            oneKg: 1200
         },
         category: 'Cake'
 
@@ -135,8 +135,8 @@ export const cakesGallery = [
         src: '/images/cake4.jpg',
         divData: 'FLOWERS LOVE',
         price: {
-            halfKg: 650,
-            oneKg: 1200
+            halfKg: 750,
+            oneKg: 1500
         },
         category: 'Cake'
 
@@ -146,8 +146,8 @@ export const cakesGallery = [
         src: '/images/cake5.jpg',
         divData: 'WINGS OF LOVE',
         price: {
-            halfKg: 650,
-            oneKg: 1200
+            halfKg: 550,
+            oneKg: 1100
         },
         category: 'Cake'
 
@@ -157,8 +157,8 @@ export const cakesGallery = [
         src: '/images/cake6.jpg',
         divData: 'JUST FOR YOU',
         price: {
-            halfKg: 650,
-            oneKg: 1200
+            halfKg: 550,
+            oneKg: 1100
         },
         category: 'Cake'
 
@@ -169,8 +169,8 @@ export const cakesGallery = [
         src: '/images/cake7.jpg',
         divData: 'MR.CHIROPRACTOR',
         price: {
-            halfKg: 650,
-            oneKg: 1200
+            halfKg: 700,
+            oneKg: 1400
         },
         category: 'Cake'
 
@@ -180,8 +180,8 @@ export const cakesGallery = [
         src: '/images/cake8.jpg',
         divData: 'CHEERS TO 20',
         price: {
-            halfKg: 650,
-            oneKg: 1200
+            halfKg: 700,
+            oneKg: 1400
         },
         category: 'Cake'
 
@@ -192,7 +192,7 @@ export const cakesGallery = [
         divData: 'GIRLY CAKE',
         price: {
             halfKg: 650,
-            oneKg: 1200
+            oneKg: 1300
         },
         category: 'Cake'
 
@@ -202,7 +202,7 @@ export const cakesGallery = [
         src: '/images/cake10.jpg',
         divData: 'BAKED WITH LOVE',
         price: {
-            halfKg: 650,
+            halfKg: 600,
             oneKg: 1200
         },
         category: 'Cake'
@@ -211,10 +211,10 @@ export const cakesGallery = [
     {
         id: 21,
         src: '/images/cake11.jpg',
-        divData: "YES THAT'S FONDANT",
+        divData: "FONDANT WORK",
         price: {
-            halfKg: 650,
-            oneKg: 1200
+            halfKg:0,
+            oneKg: 1700
         },
         category: 'Cake'
 
@@ -224,8 +224,8 @@ export const cakesGallery = [
         src: '/images/Anncake1.jpg',
         divData: 'COUPLE RING',
         price: {
-            halfKg: 650,
-            oneKg: 1200
+            halfKg:0,
+            oneKg: 2500
         },
         category: 'TwoTierRingCake'
 
@@ -235,8 +235,8 @@ export const cakesGallery = [
         src: '/images/Anncake2.jpg',
         divData: 'BALLOONS HOUSE',
         price: {
-            halfKg: 650,
-            oneKg: 1200
+            halfKg:0,
+            oneKg: 3500
         },
         category: 'TwoTierRingCake'
     },
@@ -245,8 +245,8 @@ export const cakesGallery = [
         src: '/images/Anncake3.jpg',
         divData: 'CHEERS',
         price: {
-            halfKg: 650,
-            oneKg: 1200
+            halfKg:0,
+            oneKg: 2200
         },
         category: 'TwoTierRingCake'
     },
@@ -255,8 +255,8 @@ export const cakesGallery = [
         src: '/images/Anncake4.jpg',
         divData: 'RASMALAI LOVERS',
         price: {
-            halfKg: 650,
-            oneKg: 1200
+            halfKg:0,
+            oneKg: 2400
         },
         category: 'TwoTierRingCake'
     },
@@ -265,8 +265,8 @@ export const cakesGallery = [
         src: '/images/Anncake5.jpg',
         divData: 'JUST ENGAGED',
         price: {
-            halfKg: 650,
-            oneKg: 1200
+            halfKg:0,
+            oneKg: 2300
         },
         category: 'TwoTierRingCake'
     },
@@ -275,8 +275,8 @@ export const cakesGallery = [
         src: '/images/Anncake6.jpg',
         divData: 'PICTURES RING',
         price: {
-            halfKg: 650,
-            oneKg: 1200
+            halfKg:0,
+            oneKg: 2600
         },
         category: 'TwoTierRingCake'
     },
@@ -285,8 +285,8 @@ export const cakesGallery = [
         src: '/images/Anncake7.jpg',
         divData: 'JUST WOW SPACER',
         price: {
-            halfKg: 650,
-            oneKg: 1200
+            halfKg:0,
+            oneKg: 3500
         },
         category: 'TwoTierRingCake'
     },
@@ -295,8 +295,8 @@ export const cakesGallery = [
         src: '/images/Anncake8.jpg',
         divData: '50 YEARS',
         price: {
-            halfKg: 650,
-            oneKg: 1200
+            halfKg:0,
+            oneKg: 2300
         },
         category: 'TwoTierRingCake'
     },
@@ -305,7 +305,7 @@ export const cakesGallery = [
         src: '/images/Anncake9.jpg',
         divData: 'ROSY',
         price: {
-            halfKg: 650,
+            halfKg:0,
             oneKg: 1200
         },
         category: 'TwoTierRingCake'
@@ -315,8 +315,8 @@ export const cakesGallery = [
         src: '/images/Anncake10.jpg',
         divData: 'PRINCESS FEEL',
         price: {
-            halfKg: 650,
-            oneKg: 1200
+            halfKg:0,
+            oneKg: 2500
         },
         category: 'TwoTierRingCake'
     },
@@ -325,15 +325,15 @@ export const cakesGallery = [
         src: '/images/Anncake11.jpg',
         divData: 'SPARKLE FEEL',
         price: {
-            halfKg: 650,
-            oneKg: 1200
+            halfKg:0,
+            oneKg: 2500
         },
         category: 'TwoTierRingCake'
     },
     {
         id: 33,
         src: '/images/Kidcake1.jpg',
-        divData: 'MICKEY MOUSE THEME',
+        divData: 'MICKEY MOUSE ',
         price: {
             halfKg: 650,
             oneKg: 1200
@@ -353,7 +353,7 @@ export const cakesGallery = [
     {
         id: 35,
         src: '/images/Kidcake3.jpg',
-        divData: 'TONTON FRIENDS THEME',
+        divData: 'TONTON FRIENDS ',
         price: {
             halfKg: 650,
             oneKg: 1200
@@ -373,10 +373,10 @@ export const cakesGallery = [
     {
         id: 37,
         src: '/images/Kidcake5.jpg',
-        divData: 'PAW PATROL THEME',
+        divData: 'PAW PATROL ',
         price: {
             halfKg: 650,
-            oneKg: 1200
+            oneKg: 1300
         },
         category: 'kidsTheme'
     },
@@ -386,7 +386,7 @@ export const cakesGallery = [
         divData: 'PUB G THEME',
         price: {
             halfKg: 650,
-            oneKg: 1200
+            oneKg: 1300
         },
         category: 'kidsTheme'
     },
@@ -395,8 +395,8 @@ export const cakesGallery = [
         src: '/images/Kidcake7.jpg',
         divData: 'MINIONS THEME',
         price: {
-            halfKg: 650,
-            oneKg: 1200
+            halfKg: 800,
+            oneKg: 1600
         },
         category: 'kidsTheme'
     },
@@ -406,7 +406,7 @@ export const cakesGallery = [
         divData: 'SPONGEBOB THEME',
         price: {
             halfKg: 650,
-            oneKg: 1200
+            oneKg: 1300
         },
         category: 'kidsTheme'
     },
@@ -426,146 +426,146 @@ export const cakesGallery = [
         divData: 'BTS THEME',
         price: {
             halfKg: 650,
-            oneKg: 1200
+            oneKg: 1300
         },
         category: 'kidsTheme'
     },
     {
         id: 43,
         src: '/images/cupcake1.jpg',
-        divData: 'VANILLA CUPCAKE',
+        divData: 'VANILLA ',
         price: {
-            halfKg: 650,
-            oneKg: 1200
+            halfKg: 220,
+            oneKg: 340
         },
         category: 'CupCake'
     },
     {
         id: 44,
         src: '/images/cupcake2.jpg',
-        divData: 'CHOCOLATE CUPCAKE',
+        divData: 'CHOCOLATE ',
         price: {
-            halfKg: 650,
-            oneKg: 1200
+            halfKg: 250,
+            oneKg: 350
         },
         category: 'CupCake'
     },
     {
         id: 45,
         src: '/images/cupcake3.jpg',
-        divData: 'CARROT CUPCAKE',
+        divData: 'CARROT ',
         price: {
-            halfKg: 650,
-            oneKg: 1200
+            halfKg: 240,
+            oneKg: 350
         },
         category: 'CupCake'
     },
     {
         id: 46,
         src: '/images/cupcake4.jpg',
-        divData: 'BANANA CUPCAKE',
+        divData: 'BANANA ',
         price: {
-            halfKg: 650,
-            oneKg: 1200
+            halfKg: 240,
+            oneKg: 350
         },
         category: 'CupCake'
     },
     {
         id: 47,
         src: '/images/cupcake5.jpg',
-        divData: 'RED VELVET CUPCAKE',
+        divData: 'RED VELVET ',
         price: {
-            halfKg: 650,
-            oneKg: 1200
+            halfKg: 290,
+            oneKg: 350
         },
         category: 'CupCake'
     },
     {
         id: 48,
         src: '/images/cupcake6.jpg',
-        divData: 'LOTUS BISCOFF CUPCAKE',
+        divData: 'LOTUS BISCOFF ',
         price: {
-            halfKg: 650,
-            oneKg: 1200
+            halfKg: 280,
+            oneKg: 400
         },
         category: 'CupCake'
     },
     {
         id: 49,
         src: '/images/cupcake7.jpg',
-        divData: 'STRAWBERRY CUPCAKE',
+        divData: 'STRAWBERRY ',
         price: {
-            halfKg: 650,
-            oneKg: 1200
+            halfKg: 260,
+            oneKg: 380
         },
         category: 'CupCake'
     },
     {
         id: 50,
         src: '/images/cupcake8.jpg',
-        divData: 'BLUEBERRY CUPCAKE',
+        divData: 'BLUEBERRY ',
         price: {
-            halfKg: 650,
-            oneKg: 1200
+            halfKg: 260,
+            oneKg: 380
         },
         category: 'CupCake'
     },
     {
         id: 51,
         src: '/images/cupcake9.jpg',
-        divData: 'FRUIT CUPCAKE',
+        divData: 'FRUIT ',
         price: {
-            halfKg: 650,
-            oneKg: 1200
+            halfKg: 260,
+            oneKg: 380
         },
         category: 'CupCake'
     },
     {
         id: 52,
         src: '/images/cupcake10.jpg',
-        divData: 'NUTELLA CUPCAKE',
+        divData: 'NUTELLA ',
         price: {
-            halfKg: 650,
-            oneKg: 1200
+            halfKg: 260,
+            oneKg: 400
         },
         category: 'CupCake'
     },
     {
         id: 53,
         src: '/images/cheesecake1.jpg',
-        divData: 'NO BAKE LEMON CHEESECAKE',
+        divData: 'NO BAKE LEMON ',
         price: {
-            halfKg: 650,
-            oneKg: 1200
+            halfKg: 600,
+            oneKg: 900
         },
         category: 'CheeseCake'
     },
     {
         id: 54,
         src: '/images/cheesecake2.jpg',
-        divData: 'NO BAKE BLUEBERRY CHEESECAKE',
+        divData: 'NO BAKE BLUEBERRY ',
         price: {
-            halfKg: 650,
-            oneKg: 1200
+            halfKg: 750,
+            oneKg: 1500
         },
         category: 'CheeseCake'
     },
     {
         id: 55,
         src: '/images/cheesecake3.jpg',
-        divData: 'NO BAKE STRAWBERRY CHEESECAKE',
+        divData: 'STRAWBERRY ',
         price: {
             halfKg: 650,
-            oneKg: 1200
+            oneKg: 1300
         },
         category: 'CheeseCake'
     },
     {
         id: 56,
         src: '/images/cheesecake4.jpg',
-        divData: 'NO BAKE MANGO CHEESECAKE',
+        divData: 'NO BAKE MANGO ',
         price: {
-            halfKg: 650,
+            halfKg: 600,
             oneKg: 1200
         },
         category: 'CheeseCake'
@@ -573,10 +573,10 @@ export const cakesGallery = [
     {
         id: 57,
         src: '/images/cheesecake5.jpg',
-        divData: 'LOTUS BISCOFF CHEESECAKE',
+        divData: 'LOTUS BISCOFF ',
         price: {
-            halfKg: 650,
-            oneKg: 1200
+            halfKg: 750,
+            oneKg: 1500
         },
         category: 'CheeseCake'
 
@@ -584,10 +584,10 @@ export const cakesGallery = [
     {
         id: 58,
         src: '/images/cheesecake6.jpg',
-        divData: 'CLASSIC NUTELLA CHEESECAKE',
+        divData: 'CLASSIC NUTELLA ',
         price: {
-            halfKg: 650,
-            oneKg: 1200
+            halfKg: 700,
+            oneKg: 1400
         },
         category: 'CheeseCake'
 
@@ -595,7 +595,7 @@ export const cakesGallery = [
     {
         id: 59,
         src: '/images/cheesecake7.jpg',
-        divData: 'OREO 3 LAYERED CHEESECAKE',
+        divData: 'OREO 3 LAYERED ',
         price: {
             halfKg: 650,
             oneKg: 1200
@@ -608,7 +608,7 @@ export const cakesGallery = [
         src: '/images/others1.jpg',
         divData: 'PINATA CAKE',
         price: {
-            halfKg: 650,
+            halfKg: 600,
             oneKg: 1200
         },
         category: 'others'
@@ -617,10 +617,9 @@ export const cakesGallery = [
     {
         id: 61,
         src: '/images/others2.jpg',
-        divData: 'BOUQUET OF CUPCKAES',
+        divData: 'BOUQUET ',
         price: {
-            halfKg: 650,
-            oneKg: 1200
+            halfKg: 800,
         },
         category: 'others'
     },
@@ -639,7 +638,7 @@ export const cakesGallery = [
         src: '/images/others4.jpg',
         divData: 'HAMPERS',
         price: {
-            halfKg: 650,
+            halfKg: 550,
             oneKg: 1200
         },
         category: 'others'
@@ -649,8 +648,8 @@ export const cakesGallery = [
         src: '/images/others5.jpg',
         divData: 'JAR CAKES',
         price: {
-            halfKg: 650,
-            oneKg: 1200
+            halfKg: 300,
+            oneKg: 550
         },
         category: 'others'
     },
@@ -659,8 +658,8 @@ export const cakesGallery = [
         src: '/images/others6.jpg',
         divData: 'HEART MONOGRAM',
         price: {
-            halfKg: 650,
-            oneKg: 1200
+            halfKg: 900,
+            oneKg: 1800
         },
         category: 'others'
     },
@@ -669,8 +668,8 @@ export const cakesGallery = [
         src: '/images/others7.jpg',
         divData: 'A MONOGRAM',
         price: {
-            halfKg: 650,
-            oneKg: 1200
+            halfKg: 900,
+            oneKg: 1800
         },
         category: 'others'
     },
@@ -679,7 +678,7 @@ export const cakesGallery = [
         src: '/images/others8.jpg',
         divData: 'BOUQUET',
         price: {
-            halfKg: 650,
+            halfKg: 600,
             oneKg: 1200
         },
         category: 'others'
@@ -689,8 +688,8 @@ export const cakesGallery = [
         src: '/images/others9.jpg',
         divData: 'J MONOGRAM',
         price: {
-            halfKg: 650,
-            oneKg: 1200
+            halfKg: 900,
+            oneKg: 1800
         },
         category: 'others'
     },
@@ -699,8 +698,8 @@ export const cakesGallery = [
         src: '/images/others10.jpg',
         divData: 'O MONOGRAM',
         price: {
-            halfKg: 650,
-            oneKg: 1200
+            halfKg: 900,
+            oneKg: 1800
         },
         category: 'others'
     }

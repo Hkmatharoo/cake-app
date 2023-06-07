@@ -1,7 +1,9 @@
 import React from 'react'
 import "./Reviews.css"
+import { useNavigate } from 'react-router-dom'
 
 const Reviews = () => {
+    const nav = useNavigate()
     return (
         <div className="relative">
             <div className="additional--wrapper home-page">
@@ -40,67 +42,63 @@ const Reviews = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div id="li_2" className="list-card w-100-l flex flex-column justify-between relative">
-                                <p id="li_2_feedback" className="mt0 mb4 f6">His Birthday party was successful,thanks to you😍!!the cake was very very yummy the look was amazing everything was perfect,😍thankyouu soo much for making his day dear.👍🏻😍</p>
-                                <div className="flex items-center">
-                                    <img id="li_2_image" src="https://cdn.dotpe.in/longtail/addpages/user-dummy-image.svg" className="card-image" />
-                                    <div>
-                                        <div id="li_2_name" className="f5 b pb1">Anmol</div>
+                            <section className="flex flex-wrap list-card-main-container">
+                                <div id="li_2" className="list-card w-100-l flex flex-column justify-between relative">
+                                    <p id="li_2_feedback" className="mt0 mb4 f6">His Birthday party was successful,thanks to you😍!!the cake was very very yummy the look was amazing everything was perfect,😍thankyouu soo much for making his day dear.👍🏻😍</p>
+                                    <div className="flex items-center">
+                                        <img id="li_2_image" src="https://cdn.dotpe.in/longtail/addpages/user-dummy-image.svg" className="card-image" />
+                                        <div>
+                                            <div id="li_2_name" className="f5 b pb1">Anmol</div>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div id="li_2" className="list-card w-100-l flex flex-column justify-between relative">
-                                <p id="li_2_feedback" className="mt0 mb4 f6"> Di cake bohat tasty c and we loved it,it was amazing..thanks alot😍</p>
-                                <div className="flex items-center">
-                                    <img id="li_2_image" src="https://cdn.dotpe.in/longtail/addpages/user-dummy-image.svg" className="card-image" />
-                                    <div>
-                                        <div id="li_2_name" className="f5 b pb1">Gurinder</div>
+                                <div id="li_2" className="list-card w-100-l flex flex-column justify-between relative">
+                                    <p id="li_2_feedback" className="mt0 mb4 f6"> Di cake bohat tasty c and we loved it,it was amazing..thanks alot😍</p>
+                                    <div className="flex items-center">
+                                        <img id="li_2_image" src="https://cdn.dotpe.in/longtail/addpages/user-dummy-image.svg" className="card-image" />
+                                        <div>
+                                            <div id="li_2_name" className="f5 b pb1">Gurinder</div>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div id="li_2" className="list-card w-100-l flex flex-column justify-between relative">
-                                <p id="li_2_feedback" className="mt0 mb4 f6">I'm Happy to order from you.😇Sis is happy when they saw the cake and they like the taste of the cake..😋It was very yummy.you did great👍🏻</p>
-                                <div className="flex items-center">
-                                    <img id="li_2_image" src="https://cdn.dotpe.in/longtail/addpages/user-dummy-image.svg" className="card-image" />
-                                    <div>
-                                        <div id="li_2_name" className="f5 b pb1">Mallika Phetsud</div>
+                                <div id="li_2" className="list-card w-100-l flex flex-column justify-between relative">
+                                    <p id="li_2_feedback" className="mt0 mb4 f6">I'm Happy to order from you.😇Sis is happy when they saw the cake and they like the taste of the cake..😋It was very yummy.you did great👍🏻</p>
+                                    <div className="flex items-center">
+                                        <img id="li_2_image" src="https://cdn.dotpe.in/longtail/addpages/user-dummy-image.svg" className="card-image" />
+                                        <div>
+                                            <div id="li_2_name" className="f5 b pb1">Mallika Phetsud</div>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div id="li_2" className="list-card w-100-l flex flex-column justify-between relative">
-                                <p id="li_2_feedback" className="mt0 mb4 f6">It was really good .Everyone praised it alot.😇God bless keep up the good work.👍🏻</p>
-                                <div className="flex items-center">
-                                    <img id="li_2_image" src="https://cdn.dotpe.in/longtail/addpages/user-dummy-image.svg" className="card-image" />
-                                    <div>
-                                        <div id="li_2_name" className="f5 b pb1">Keshav Sharma</div>
+                                <div id="li_2" className="list-card w-100-l flex flex-column justify-between relative">
+                                    <p id="li_2_feedback" className="mt0 mb4 f6">It was really good .Everyone praised it alot.😇God bless keep up the good work.👍🏻</p>
+                                    <div className="flex items-center">
+                                        <img id="li_2_image" src="https://cdn.dotpe.in/longtail/addpages/user-dummy-image.svg" className="card-image" />
+                                        <div>
+                                            <div id="li_2_name" className="f5 b pb1">Keshav Sharma</div>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div id="li_2" className="list-card w-100-l flex flex-column justify-between relative">
-                                <p id="li_2_feedback" className="mt0 mb4 f6">The Cake was beautiful and it tasted great!🥰 Hope we have more reason to celebrate soon so that we can have more of your delicious cakes.🥳Keep Shining and Growing!Bless you😘</p>
-                                <div className="flex items-center">
-                                    <img id="li_2_image" src="https://cdn.dotpe.in/longtail/addpages/user-dummy-image.svg" className="card-image" />
-                                    <div>
-                                        <div id="li_2_name" className="f5 b pb1">Jass Dhaliwal</div>
+                                <div id="li_2" className="list-card w-100-l flex flex-column justify-between relative">
+                                    <p id="li_2_feedback" className="mt0 mb4 f6">The Cake was beautiful and it tasted great!🥰 Hope we have more reason to celebrate soon so that we can have more of your delicious cakes.🥳Keep Shining and Growing!Bless you😘</p>
+                                    <div className="flex items-center">
+                                        <img id="li_2_image" src="https://cdn.dotpe.in/longtail/addpages/user-dummy-image.svg" className="card-image" />
+                                        <div>
+                                            <div id="li_2_name" className="f5 b pb1">Jass Dhaliwal</div>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div id="li_2" className="list-card w-100-l flex flex-column justify-between relative">
-                                <p id="li_2_feedback" className="mt0 mb4 f6">The Cake was Incredible.😘Thankyou so much for Delicious and lovely cake and making my day more special😇</p>
-                                <div className="flex items-center">
-                                    <img id="li_2_image" src="https://cdn.dotpe.in/longtail/addpages/user-dummy-image.svg" className="card-image" />
-                                    <div>
-                                        <div id="li_2_name" className="f5 b pb1">Gagandeep</div>
+                                <div id="li_2" className="list-card w-100-l flex flex-column justify-between relative">
+                                    <p id="li_2_feedback" className="mt0 mb4 f6">The Cake was Incredible.😘Thankyou so much for Delicious and lovely cake and making my day more special😇</p>
+                                    <div className="flex items-center">
+                                        <img id="li_2_image" src="https://cdn.dotpe.in/longtail/addpages/user-dummy-image.svg" className="card-image" />
+                                        <div>
+                                            <div id="li_2_name" className="f5 b pb1">Gagandeep</div>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
+                            </section>
                         </div>
-
-                        <section className="flex justify-center items-center view-more-btn--container">
-                            <button className="view-more-btn">
-                                <span className="w-100 tc">View More</span>
-                            </button>
-                        </section>
                     </div>
                 </section>
             </div>

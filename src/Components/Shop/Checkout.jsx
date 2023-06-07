@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 import DeliveryForm from './DeliveryForm';
+import OrderSummaryComponent from '../Cart/OrderSummaryComponent';
+import PickupForm from './PickupForm';
 
 const Checkout = () => {
   const[pickup, setPickup] = useState(false);
@@ -18,10 +20,18 @@ const Checkout = () => {
             </div>
           </article>
         </div>
-        {!pickup?<DeliveryForm/>:null}
+        
       </div>
+      <div>
+        <span>
+        {!pickup?<DeliveryForm/>:<><PickupForm /></>}
+        </span>
+        <span>
+          <OrderSummaryComponent/>
+        </span>
+      </div>
+
     </>
   )
 }
-
 export default Checkout

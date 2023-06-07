@@ -73,7 +73,7 @@ export const cakes = [
         oneP: 'Rs 1000/-'
     },
     {
-        name: 'BUTTERSCOTCH  CAKE',
+        name: 'BUTTERSCOTCH CAKE',
         halfP: 'Rs 500/-',
         oneP: 'Rs 900/-'
     },
@@ -216,12 +216,12 @@ export const cheesecake = [
     {
         name:'NO BAKE LEMON CHEESECAKE',
         halfP:'Rs 600/-',
-        oneP:'Rs 850/-'
+        oneP:'Rs 900/-'
      },
      {
         name:'NO BAKE BLUEBERRY CHEESECAKE',
         halfP:'Rs 750/-',
-        oneP:'Rs 1400/-'
+        oneP:'Rs 1500/-'
      },
      {
         name:'NO BAKE STRAWBERRY CHEESECAKE',
@@ -231,22 +231,22 @@ export const cheesecake = [
      {
         name:'NO BAKE MANGO CHEESECAKE',
         halfP:'Rs 600/-',
-        oneP:'Rs 1000/-'
+        oneP:'Rs 1200/-'
      },
      {
         name:'LOTUS BISCOFF CHEESECAKE',
-        halfP:'Rs 700/-',
+        halfP:'Rs 750/-',
         oneP:'Rs 1500/-'
      },
      {
         name:'CLASSIC NUTELLA CHEESECAKE',
-        halfP:'Rs 650/-',
-        oneP:'Rs 1200/-'
+        halfP:'Rs 700/-',
+        oneP:'Rs 1400/-'
      },
      {
         name:'OREO 3 LAYERED CHEESECAKE',
         halfP:'Rs 650/-',
-        oneP:'Rs 1100/-'
+        oneP:'Rs 1200/-'
      }
 ]
 
